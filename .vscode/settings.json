@@ -1,0 +1,18 @@
+{
+"files.exclude": {
+    ".dart_tool": true,
+    ".flutter-plugins": true,
+    ".flutter-plugins-dependencies": true,
+    ".metadata": true,
+    // "pubspec.lock": true,
+    "docker-compose.yml": true,
+    "Dockerfile": true,
+    "lk.iml": true
+    // ".vscode": true,
+    // "build": true,
+},
+"editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "editor.formatOnSave": "explicit"
+}
+}

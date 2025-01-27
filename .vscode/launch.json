@@ -1,0 +1,47 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Chrome Deug",
+			"request": "launch",
+			"type": "dart",
+			"program": "lib/main.dart",
+			"args": ["--web-port", "5000", "-d", "chrome"]
+		},
+		{
+			"name": "Chrome Release",
+			"request": "launch",
+			"type": "dart",
+			"program": "lib/main.dart",
+			"args": ["--release", "--web-port", "5000", "-d", "chrome"]
+		},
+		{
+			"name": "Windows Debug",
+			"request": "launch",
+			"type": "dart",
+			"program": "lib/main.dart",
+			"args": []
+		},
+		{
+			"name": "Windows Release",
+			"request": "launch",
+			"type": "dart",
+			"program": "lib/main.dart",
+			"args": ["--release"]
+		},
+		{
+			"name": "Android Debug",
+			"request": "launch",
+			"type": "dart",
+			"program": "lib/main.dart",
+			"args": ["-d", "android"]
+		},
+		{
+			"name": "Android Release",
+			"request": "launch",
+			"type": "dart",
+			"program": "lib/main.dart",
+			"args": ["--release", "-d", "android"]
+		}
+	]
+}
